@@ -1,0 +1,49 @@
+<div class="sidebar sidebar-left">
+    <div class="scrollable" ui-state="searchBar" >
+        <div class="scrollable-content side-menu" ui-scroll-bottom='bottomReached()'>
+            <!--<a ng-href="{{'#'+menuItem.redirect}}" class="list-group-item menu" ui-turn-off='uiSidebarLeft' ng-repeat="menuItem in componentData" ng-click="menunavigation( menuItem.redirect)" >-->
+            <!--<img ng-src="{{ menuItem.img_path}}"/>-->
+            <!--<label>{{menuItem.title}}</label>-->
+            <!--</a>-->
+            <menu-slider></menu-slider>
+        </div>
+    </div>
+</div>
+
+<div class="app">
+    <div class="navbar navbar-app navbar-absolute-top cust-navbar-app">
+        <div class="navbar-brand navbar-brand-center" ui-yield-to="title">
+            <span class="ng-scope"> Get Your Offer </span>
+        </div>
+        <div class="btn-group pull-left">
+            <div class="back-btn" ng-click="back_navigation()" >
+                <i class="fa fa-angle-left"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class='app-body'>
+        <div class='app-content'>
+            <div class="scrollable">
+                <div class="scrollable-content">
+                    <div class="list-group train">
+                        <div class="text-center message" ng-if="adData==undefined">
+                            <label class="panel-title "> Data Unavailable </label>
+                        </div>
+                        <accordion close-others="oneAtATime">
+                            <accordion-group class="travels " heading="{{'Offers At '+ adItem.ad_provider}}" ng-repeat="adItem in adData">
+                                <div class="" ng-repeat="adOfferItem in adItem.ad_offer">
+                                        <div class="adLabelData" >
+                                            <img ng-src="{{adOfferItem.ad_img_path}}" />
+                                            <label class="optmenu ">Detail : {{adOfferItem.ad_offer_discrpition}} </label>
+                                            <label class="optmenu ">Grab From  : {{adOfferItem.ad_offer_discrpition +' To '+adOfferItem.ad_offer_discrpition}} </label>
+                                        </div>
+                                </div>
+                            </accordion-group>
+                        </accordion>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

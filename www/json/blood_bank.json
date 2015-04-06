@@ -1,0 +1,47 @@
+[
+    {
+        "bb_id" :  " 1521 ",
+        "bb_name" : " Kolhapur Municipal Corporation Blood Bank ",
+        "bb_contact" : " 0231-2541870 ",
+        "bb_address"  : " No.83, Kasbagate, Mahadwar  Road",
+        "bb_city" : " Kolhapur",
+        "bb_state":"Maharashtra",
+        "bb_pin" : " 416002"
+    },
+    {
+        "bb_id" :  "1522",
+        "bb_name" : "CPR Hospital",
+        "bb_contact" : "  0231-2644337 ",
+        "bb_address" : " Near Town hall ",
+        "bb_city" : " Kolhapur",
+        "bb_state":"Maharashtra",
+        "bb_pin" : " 416002"
+    },
+    {
+        "bb_id" :  "1523",
+        "bb_name" : " Shahu Blood Bank ",
+        "bb_contact" : "0231-2651640  ",
+        "bb_address" : "Collector Office Road, Nagala Park ",
+        "bb_city" : " Kolhapur",
+        "bb_state":"Maharashtra",
+        "bb_pin" : " 416003"
+    },
+    {
+        "bb_id" :  "1524",
+        "bb_name" : " City Blood Bank Kolhapur  ",
+        "bb_contact" : "0231-2526566       ",
+        "bb_address"  : " Capital Apartment,9th Lane, Rajarampuri  ",
+        "bb_city" : " Kolhapur",
+        "bb_state":"Maharashtra",
+        "bb_pin" : " 416008"
+    },
+    {
+        "bb_id" :  "1525",
+        "bb_name" : "Sanjeevan Blood Bank  ",
+        "bb_contact" : "0231 – 2668031  ",
+        "bb_address" : "250/64, E, Main Road, Nagala Park ",
+        "bb_city" : " Kolhapur",
+        "bb_state":"Maharashtra",
+        "bb_pin" : " 416002"
+    }
+]

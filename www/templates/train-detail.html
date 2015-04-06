@@ -1,0 +1,76 @@
+<!--<div class="sidebar sidebar-left">-->
+    <!--<div class="scrollable" ui-state="searchBar" >-->
+        <!--<div class="scrollable-content" ui-scroll-bottom='bottomReached()'>-->
+            <!--<a ng-href="{{'#'+menuItem.redirect}}" class="list-group-item menu" ui-turn-off='uiSidebarLeft' ng-repeat="menuItem in componentData" ng-click="menunavigation( menuItem.redirect)" >-->
+                <!--&lt;!&ndash;<img ng-src="{{ menuItem.img_path}}"/>&ndash;&gt;-->
+                <!--<label>{{menuItem.title}}</label>-->
+            <!--</a>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<div class="app">
+    <div class="navbar navbar-app navbar-absolute-top cust-navbar-app">
+        <div class="navbar-brand navbar-brand-center" ui-yield-to="title">
+            <span class="ng-scope"> Train Details</span>
+        </div>
+        <div class="btn-group pull-left" ng-click="back_navigation()">
+            <div class="back-btn">
+                <i class="fa fa-angle-left"></i>
+            </div>
+        </div>
+    </div>
+    <div class='app-body'>
+        <div class='app-content'>
+            <div class="scrollable" ui-state="searchBar">
+                <div class="scrollable-content" >
+                    <div class="list-group train">
+                        <!--  Campaign-Card Container  -->
+                        <div class="list-group-item train-detail-card">
+                            <!--<img ng-src="{{trainDetailData.campaign_thumb}}"/>-->
+                            <div class="listdetail ">
+                                <div class="labeltitle">
+                                    <h4><i class="fa fa-calendar"></i>&nbsp;train schedule</h4>
+                                </div>
+                                <div class=" row" >
+                                    <label class="optmenu col-xs-4 col-sm-4 col-md-4">Train Number</label>
+                                    <label class="parameters col-xs-8 col-sm-8 col-md-8">{{trainDetail.train_no}}</label>
+                                </div>
+                                <div class=" row" >
+                                    <label class="optmenu col-xs-4 col-sm-4 col-md-4"> Train Name </label>
+                                    <label class="parameters col-xs-8 col-sm-8 col-md-8">{{trainDetail.train_name}}</label>
+                                </div>
+                                <div class=" row" >
+                                    <label class="optmenu col-xs-4 col-sm-4 col-md-4"> Source  </label>
+                                    <label class="parameters col-xs-8 col-sm-8 col-md-8">{{trainDetail.train_starting}}</label>
+                                </div>
+                                <div class=" row" >
+                                    <label class="optmenu col-xs-4 col-sm-4 col-md-4"> Destination </label>
+                                    <label class="parameters col-xs-8 col-sm-8 col-md-8">{{trainDetail.train_destination}}</label>
+                                </div>
+                                <div class=" row" >
+                                    <label class="optmenu col-xs-4 col-sm-4 col-md-4">Train Type</label>
+                                    <label class="parameters col-xs-8 col-sm-8 col-md-8">{{trainDetail.train_type}}</label>
+                                </div>
+                                <div class=" row" >
+                                    <label class="optmenu col-xs-4 col-sm-4 col-md-4"> Runs On  </label>
+                                    <label class="parameters col-xs-8 col-sm-8 col-md-8">{{trainDetail.train_available_days}}</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6 text-center innerblock" >
+                                    <p>Departure Time</p>
+                                    <p><i class="fa fa-clock-o"></i>&nbsp;{{trainDetail.train_Departure_time }}</p>
+                                </div>
+                                <div class="col-xs-6 text-center innerblock">
+                                    <p>Arrival Time</p>
+                                    <p><i class="fa fa-clock-o"></i>&nbsp;{{ trainDetail.train_Arrival }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

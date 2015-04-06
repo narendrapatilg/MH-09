@@ -1,0 +1,180 @@
+[
+    {
+        "train_id":" 1442",
+        "train_no":" 17415",
+        "train_name":"Haripriya Express-Tirupat to kolhapr",
+        "train_type":"Express",
+        "train_Departure_time":" 11:35",
+        "train_Arrival":"16:35",
+        "train_available_days":"Daily",
+        "train_starting":" Tirupati",
+        "train_destination":" Kolhapur"
+    },
+    {
+        "train_id":"1443",
+        "train_no":"17411",
+        "train_name":"Mahalaxmi Express",
+        "train_type":"Express",
+        "train_Departure_time":"20:30",
+        "train_Arrival":"07:20",
+        "train_available_days":"Daily",
+        "train_starting":"Mumbai C. S. T,",
+        "train_destination":"kolhapur "
+    },
+    {
+        "train_id":"1444",
+        "train_no":"11029",
+        "train_name":"Koyana Express",
+        "train_type":"Express",
+        "train_Departure_time":"7:55",
+        "train_Arrival":"20:25 ",
+        "train_available_days":"Daily",
+        "train_starting":" Mumabi CST",
+        "train_destination":"Kolhapur"
+    },
+    {
+        "train_id":"1445",
+        "train_no":"11051",
+        "train_name":"Kolhapur Solapur Express",
+        "train_type":"Express",
+        "train_Departure_time":"23:55",
+        "train_Arrival":"06:20",
+        "train_available_days":"Daily",
+        "train_starting":"Solapur",
+        "train_destination":"Kolhapur "
+    },
+    {
+        "train_id":" 1446",
+        "train_no":" 11049",
+        "train_name":"Kolhapur Ahmedabad Express",
+        "train_type":"Express",
+        "train_Departure_time":" 12:50",
+        "train_Arrival":"15:25 ",
+        "train_available_days":"Saturday",
+        "train_starting":" Ahmedabad",
+        "train_destination":" Kolhapur "
+    },
+    {
+        "train_id":" 1447",
+        "train_no":" 11303",
+        "train_name":"Kolhapur -Hyderabad Express",
+        "train_type":"Express",
+        "train_Departure_time":" 07:35",
+        "train_Arrival":"22:40 ",
+        "train_available_days":"Daily",
+        "train_starting":" hyderabad",
+        "train_destination":" Kolhapur "
+    },
+    {
+        "train_id":" 1448",
+        "train_no":" 11",
+        "train_name":"Rani chennama Express (Kolhapur-banglore)",
+        "train_type":"Express",
+        "train_Departure_time":" 14:20",
+        "train_Arrival":"13:40 ",
+        "train_available_days":"Daily",
+        "train_starting":" Banglore",
+        "train_destination":" Kolhapur"
+    },
+    {
+        "train_id":" 1449",
+        "train_no":" 11040",
+        "train_name":"Maharashtra Express (Kolhapur –Gondia) ",
+        "train_type":"Express",
+        "train_Departure time":" 15:30",
+        "train_Arrival":"12:45",
+        "train_available_days":" Daily",
+        "train_starting":" Gondia",
+        "train_destination":" Kolhapur "
+    },
+    {
+        "train_id":" 1450",
+        "train_no":" 12147",
+        "train_name":"Kolhapur –H. Nijamuddin Express",
+        "train_type":"Express",
+        "train_Departure_time":" 09:05",
+        "train_Arrival":"17:10 ",
+        "train_available_days":" Frnoay",
+        "train_starting":" H. Nijamuddin Delhi",
+        "train_destination":" Kolhapur "
+    },
+    {
+        "train_id":" 1451",
+        "train_no":" 11403",
+        "train_name":"Kolhapur -Nagpur Express",
+        "train_type":"Express",
+        "train_Departure_time":" 12:50",
+        "train_Arrival":"14:15 ",
+        "train_available_days":" Wed, Sat",
+        "train_starting":" Nagpur",
+        "train_destination":" Kolhapur "
+    },
+    {
+        "train_id":" 1452",
+        "train_no":" 11023",
+        "train_name":"Sahyadri Express (Kolhapur-Mumbai CST)",
+        "train_type":"Express",
+        "train_Departure_time":" 22:50",
+        "train_Arrival":"06:05",
+        "train_available_days":" Daily",
+        "train_starting":" Mumbai C. S. T.",
+        "train_destination":" Kolhapur. "
+    },
+    {
+        "train_id":" 1453",
+        "train_no":" 11045",
+        "train_name":"Dikshabhoomi Express (Kolhapur-Dhanbad)",
+        "train_type":"Express",
+        "train_Departure_time":" 23:45",
+        "train_Arrival":"03:45 ",
+        "train_available_days":" Thursday",
+        "train_starting":" Dhanbad",
+        "train_destination":" Kolhapur. "
+    },
+    {
+        "train_id":" 1454",
+        "train_no":" 51409",
+        "train_name":"Kolhapur -pune Passanger",
+        "train_type":"Passanger",
+        "train_Departure_time":" 04:45",
+        "train_Arrival":"19:30 ",
+        "train_available_days":"Daily",
+        "train_starting":" Pune",
+        "train_destination":" Kolhapur "
+    },
+    {
+        "train_id":" 1455",
+        "train_no":" 51427",
+        "train_name":"Kolhapur –Miraj passanger",
+        "train_type":"Passanger",
+        "train_Departure_time":" 10:50",
+        "train_Arrival":"15:15 ",
+        "train_available_days":"Daily",
+        "train_starting":" Miraj",
+        "train_destination":" Kolhapur "
+    },
+    {
+        "train_id":" 1456",
+        "train_no":" 51441",
+        "train_name":"Kolhapur –Satara Passanger",
+        "train_type":"Passanger",
+        "train_Departure_time":" 16:50",
+        "train_Arrival":"09:55 ",
+        "train_available_days":"Daily",
+        "train_starting":" Satara",
+        "train_destination":" Kolhapur "
+    },
+    {
+        "train_id":" 1457",
+        "train_no":" 51430",
+        "train_name":"Kolhapur –Sangli Passanger",
+        "train_type":"Passanger",
+        "train_Departure_time":" 16:50",
+        "train_Arrival":"22:20 ",
+        "train_available_days":"Daily",
+        "train_starting":" Sangli",
+        "train_destination":" Kolhapur"
+    }
+]
+
+

@@ -1,0 +1,38 @@
+
+<div class="app">
+    <div class="navbar navbar-app navbar-absolute-top cust-navbar-app">
+        <div class="navbar-brand navbar-brand-center">
+            DashBoard
+        </div>
+    </div>
+    <!-- App body -->
+    <div class='app-body'>
+        <div class='app-content'>
+            <div class="scrollable" ui-state="searchBar">
+                <div class="scrollable-content" ui-scroll-bottom='bottomReached()'>
+                    <loader-view></loader-view>
+
+                    <div >
+                        <div class="adcarousel">
+                            <carousel interval="myInterval">
+                                <slide ng-repeat="slide in adImageArrayForSlider" active="slide.active">
+                                    <img ng-src="{{slide.ad_img_path}}" style="margin:auto;">
+                                    <div class="carousel-caption">
+                                        <span>Offer Start : {{slide.ad_offer_start}}</span> <span> Offer End : {{slide.ad_offer_end}}</span>
+                                    </div>
+                                </slide>
+                            </carousel>
+                        </div>
+                    </div>
+
+                    <div class="list-group cust-list-group">
+                        <a ng-href="{{'#'+item.redirect}}" ng-repeat="item in componentData" class="list-group-item cust-group-item">
+                           <div class="dash-image"> <img ng-src="{{item.img_path}}"/></div>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- ~ .app -->

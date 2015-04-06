@@ -1,0 +1,400 @@
+    [
+        {
+            "transport_name": "Thana - Borivali",
+            "transport_details": [
+                {
+                    "travels_id": "1129",
+                    "travels_destination": "Thana - borivali",
+                    "travels_type": " sitting non A/C ",
+                    "travels_time": "21.00 ",
+                    "travels_company": "Konduskar"
+                },
+                {
+                    "travels_id": "1130",
+                    "travels_destination": "  Thana - Borivali ",
+                    "travels_type": "Sitting Non A/C   ",
+                    "travels_time": " 21.00,22.00 ",
+                    "travels_company": "Vaibhav"
+                },
+                {
+                    "travels_id": "1131",
+                    "travels_destination": "Thana - borivali   ",
+                    "travels_type": " Sleeper A/C  ",
+                    "travels_time": " 22.00 ",
+                    "travels_company": "Vaibhav"
+                },
+                {
+                    "travels_id": "1132",
+                    "travels_destination": "Thana - boriwali  ",
+                    "travels_type": "Sleeper A/C   ",
+                    "travels_time": "22.30 ",
+                    "travels_company": "Pawan"
+                }
+
+            ]
+        },
+        {
+            "transport_name": "Dadar - Boriwali",
+            "transport_details": [
+                {
+                    "travels_id": "1133",
+                    "travels_destination": "Dadar -Boriwali",
+                    "travels_type": " Sleeper A/C  ",
+                    "travels_time": " 21.45 ",
+                    "travels_company": "Neeta"
+                },
+                {
+                    "travels_id": "1134",
+                    "travels_destination": " Dadar -borivali  ",
+                    "travels_type": "  Sitting Non A/C ",
+                    "travels_time": "21.30  ",
+                    "travels_company": "Vaibhav"
+                },
+                {
+                    "travels_id": "1135",
+                    "travels_destination": "Dadar -boriwali   ",
+                    "travels_type": "Sleeper A/C   ",
+                    "travels_time": "23.30  ",
+                    "travels_company": "Vaibhav"
+                }
+            ]
+        },
+        {
+            "transport_name": "Sion - Borivali",
+            "transport_details": [
+                {
+                    "travels_id": "1136",
+                    "travels_destination": "Sion -Borivali   ",
+                    "travels_type": " A/C sleeper  ",
+                    "travels_time": " 22.00 ",
+                    "travels_company": "Nakoda"
+                },
+                {
+                    "travels_id": "1137",
+                    "travels_destination": " Sion -Borivali   ",
+                    "travels_type": "  Sleeper Non A/C ",
+                    "travels_time": "23.00  ",
+                    "travels_company": "VRL"
+                },
+                {
+                    "travels_id": "1138",
+                    "travels_destination": " Sion- Borivali ",
+                    "travels_type": " Sitting Non A/C  ",
+                    "travels_time": " 16.15,17.15,22.30,23.30 ",
+                    "travels_company": "Neeta"
+                }
+            ]
+        },
+        {
+            "transport_name": "Kalyan - dombivali",
+            "transport_details": [
+                {
+                    "travels_id": "1139",
+                    "travels_destination": "Kalyan- Dombidali",
+                    "travels_type": " sitting non A/C  ",
+                    "travels_time": "21.15 ",
+                    "travels_company": "Konduskar"
+                },
+                {
+                    "travels_id": "1140",
+                    "travels_destination": "Kalyan- Dombivali  ",
+                    "travels_type": " A/C sleeper  ",
+                    "travels_time": "21.15  ",
+                    "travels_company": "Konduskar"
+                }
+            ]
+        },
+        {
+            "transport_name": "Dadar - Crawford Market",
+            "transport_details": [
+                {
+                    "travels_id": "1141",
+                    "travels_destination": "Dadar -Crawford market",
+                    "travels_type": "sitting non A/C ",
+                    "travels_time": "22.00  ",
+                    "travels_company": "Konduskar"
+                },
+                {
+                    "travels_id": "1142",
+                    "travels_destination": "Dadar -Crawford market",
+                    "travels_type": " Sleeper non A/C ",
+                    "travels_time": "10.15 ",
+                    "travels_company": "Konduskar"
+                },
+                {
+                    "travels_id": "1143",
+                    "travels_destination": " Dadar- Crawford market",
+                    "travels_type": "A/C sleeper   ",
+                    "travels_time": " 23.00 ",
+                    "travels_company": "Nakoda"
+                },
+                {
+                    "travels_id": "1144",
+                    "travels_destination": " Dadar- Crawford market  ",
+                    "travels_type": "  Sitting Non A/C ",
+                    "travels_time": "22.00  ",
+                    "travels_company": "Vaibhav"
+                },
+                {
+
+                    "travels_id": "1145",
+                    "travels_destination": " Dadar- Ceawford market ",
+                    "travels_type": " Sleeper A/C  ",
+                    "travels_time": "23.00  ",
+                    "travels_company": "Vaibhav"
+                }
+            ]
+        },
+        {
+            "transport_name": "Thana - Kurla",
+            "transport_details": [
+                {
+                    "travels_id": "1146",
+                    "travels_destination": "Thana -kurla  ",
+                    "travels_type": " Sleeper A/C ",
+                    "travels_time": "22.00 ",
+                    "travels_company": "Pawan"
+
+                }
+            ]
+        },
+        {
+            "transport_name": "Pune",
+            "transport_details":[
+                {
+                    "travels_id":"1101",
+                    "travels_destination":"pune",
+                    "travels_type":" A/C Volvo sitting  ",
+                    "travels_time":"06.00,07.00,11.15,01.15,16.00,17.50,23.30",
+                    "travels_company":"Konduskar"
+                },
+                {
+                    "travels_id":"1102",
+                    "travels_destination":"PUNE",
+                    "travels_type":"Sitting Non A/C  ",
+                    "travels_time":" 16.00,16.45,17.15 ",
+                    "travels_company":"Neeta"
+                },
+                {
+                    "travels_id":"1103",
+                    "travels_destination":"Pune",
+                    "travels_type":" Sitting Non A/C  ",
+                    "travels_time":" 23.30 ",
+                    "travels_company":"Vaibhav"
+                },
+
+                {
+                    "travels_id":"1105",
+                    "travels_destination":"Pune ",
+                    "travels_type":" Sleeper A/C ",
+                    "travels_time":" 23.30 ",
+                    "travels_company":"Pawan"
+                }
+            ]
+        },
+        {
+            "transport_name": "Nigadi",
+            "transport_details": [
+                {
+                    "travels_id":"1106",
+                    "travels_destination":"Nigadi  ",
+                    "travels_type":" sitting  ",
+                    "travels_time":"07.00,16.15  ",
+                    "travels_company":"Neeta"
+                }
+            ]
+        },
+        {
+            "transport_name": "Banglore",
+            "transport_details": [
+                {
+                "travels_id":"1107",
+                "travels_destination":"Banglore",
+                "travels_type":" Sleeper  Volvo  ",
+                "travels_time":" 19.30,21.15 ",
+                "travels_company":"Konduskar"
+                },
+                {
+                "travels_id":"1108",
+                "travels_destination":"Banglore",
+                "travels_type":"  A/C sleeper ",
+                "travels_time":" 19.00 ",
+                "travels_company":"Nakoda"
+                },
+                {
+                "travels_id":"1109",
+                "travels_destination":"Banglore",
+                "travels_type":" Sleeper Non A/C  ",
+                "travels_time":" 18.30 ",
+                "travels_company":"VRL"
+                },
+                {
+                "travels_id":"1110",
+                "travels_destination":"Banglore",
+                "travels_type":"Sleeper  A/C   ",
+                "travels_time":"21.30  ",
+                "travels_company":"Neeta"
+                }
+            ]
+        },
+        {
+            "transport_name": "Nashik",
+            "transport_details": [
+                {
+                    "travels_id":"11011",
+                    "travels_destination":"Nashik  ",
+                    "travels_type":"  Sleeper Volvo ",
+                    "travels_time":"20.00  ",
+                    "travels_company":"Konduskar"
+                },
+                {
+                    "travels_id":"1112",
+                    "travels_destination":"Nashik  ",
+                    "travels_type":" A/C sleeper  ",
+                    "travels_time":" 20.00 ",
+                    "travels_company":"Nakoda"
+                },
+                {
+                    "travels_id":"1113",
+                    "travels_destination":"Nashik ",
+                    "travels_type":"Sleeper A/C  ",
+                    "travels_time":"19.30 ",
+                    "travels_company":"Pareek"
+
+                },
+                {
+                    "travels_id":"1114",
+                    "travels_destination":"Nashik  ",
+                    "travels_type":"Sleeper non A/C  ",
+                    "travels_time":" 19.30",
+                    "travels_company":"Pareek"
+                }
+            ]
+        },
+        {
+            "transport_name": "Aurngabad",
+            "transport_details": [
+                {
+                    "travels_id":"1115",
+                    "travels_destination":"Aurngabad",
+                    "travels_type":"Sleeper Volvo   ",
+                    "travels_time":" 20.30 ",
+                    "travels_company":"Konduskar"
+                },
+                {
+                    "travels_id":"1116",
+                    "travels_destination":"Aurngabad",
+                    "travels_type":" A/C sleeper  ",
+                    "travels_time":"21.00  ",
+                    "travels_company":"Nakoda"
+                },
+                {
+                    "travels_id":"1117",
+                    "travels_destination":"Aurangabad",
+                    "travels_type":"Sleeper A/C  ",
+                    "travels_time":"21.00 ",
+                    "travels_company":"Pawan"
+                }
+            ]
+        },
+        {
+            "transport_name": "Shirdi",
+            "transport_details": [
+                {
+                    "travels_id":"1118",
+                    "travels_destination":"Shirdi",
+                    "travels_type":"  A/C sleeper ",
+                    "travels_time":" 21.00 ",
+                    "travels_company":"Konduskar"
+                },
+                {
+                    "travels_id":"1119",
+                    "travels_destination":"Shird",
+                    "travels_type":" Non A/C sleeper  ",
+                    "travels_time":" 22.00 ",
+                    "travels_company":"Nakoda"
+                }
+            ]
+        },
+        {
+            "transport_name": "Solapur",
+            "transport_details": [
+                {
+                    "travels_id":"1120",
+                    "travels_destination":"Solapur",
+                    "travels_type":" A/C sitting  ",
+                    "travels_time":" 06.00,16.15 ",
+                    "travels_company":"Konduskar"
+                }
+            ]
+        },
+        {
+            "transport_name": "Surat",
+            "transport_details": [
+                {
+                    "travels_id":"1121",
+                    "travels_destination":"Surat",
+                    "travels_type":" Sleeper  ",
+                    "travels_time":"15.30  ",
+                    "travels_company":"Nakoda"
+                }
+            ]
+        },
+        {
+            "transport_name": "Ahmadabad",
+            "transport_details": [
+                {
+                    "travels_id":"1123",
+                    "travels_destination":"Ahmadabad",
+                    "travels_type":"Sitting non A/C   ",
+                    "travels_time":"16.45,22.30",
+                    "travels_company":"Neeta"
+                },
+                {
+                    "travels_id":"1124",
+                    "travels_destination":"Ahmadabad",
+                    "travels_type":" Sleeper Non A/C  ",
+                    "travels_time":" 17.30",
+                    "travels_company":"VRL"
+                }
+            ]
+        },
+        {
+            "transport_name": "Goa",
+            "transport_details": [
+                {
+                    "travels_id":"1126",
+                    "travels_destination":"Goa",
+                    "travels_type":" Sitting non A/C  ",
+                    "travels_time":" 15.30,01.00 ",
+                    "travels_company":"Neeta"
+                },
+                {
+                    "travels_id":"1127",
+                    "travels_destination":"Goa",
+                    "travels_type":" Sitting Non A/C  ",
+                    "travels_time":"23.30  ",
+                    "travels_company":"Ashoka"
+                },
+                {
+                    "travels_id":"1128",
+                    "travels_destination":"Goa",
+                    "travels_type":"  A/C sitting ",
+                    "travels_time":"  23.30",
+                    "travels_company":"Nakoda"
+                }
+            ]
+        },
+        {
+            "transport_name": "Menglore",
+            "transport_details": [
+                {
+                    "travels_id":"1125",
+                    "travels_destination":"Menglore",
+                    "travels_type":" Sleeper Non A/C  ",
+                    "travels_time":" 16.30 ",
+                    "travels_company":"VRL"
+                }
+             ]
+        }
+    ]

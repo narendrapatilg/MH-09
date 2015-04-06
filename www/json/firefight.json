@@ -1,0 +1,47 @@
+[
+    {
+        "emff_id" :  "1 501 ",
+        "emff_name" : "The Fire Brigade Department of Kolhapur",
+        "emff_contact" : "0231 -2540291 to 99  ",
+        "emff_address"  : "Tararani square, ward E ",
+        "emff_city" : " Kolhapur",
+        "emff_state":"Maharashtra",
+        "emff_pin" : " 416003"
+    },
+    {
+        "emff_id" :  " 1502 ",
+        "emff_name" : " Tararani fire station No 1(Main control room)",
+        "emff_contact" : "101 & 0231–2656221 ",
+        "emff_address"  : "Tararani square, ward E ",
+        "emff_city" : " Kolhapur",
+        "emff_state":"Maharashtra",
+        "emff_pin" : " 416003"
+    },
+    {
+        "emff_id" :  " 1503 ",
+        "emff_name" : " C ward fire station No 2 ",
+        "emff_contact" : " 0231 - 2530296 ",
+        "emff_address"  : "Corporation Main Office, C ward, ",
+        "emff_city" : " Kolhapur",
+        "emff_state":"Maharashtra",
+        "emff_pin" : " 416003"
+    },
+    {
+        "emff_id" :  " 1504 ",
+        "emff_name" : " C ward fire station No 2 ",
+        "emff_contact" : " 0231 - 2530296 ",
+        "emff_address": "Corporation Main Office, C ward, ",
+        "emff_city" : " Kolhapur",
+        "emff_state":"Maharashtra",
+        "emff_pin" : " 416003"
+    },
+    {
+        "emff_id" :  " 1505 ",
+        "emff_name" : " Bavada fire station No. 3",
+        "emff_contact" : " 0231 - 2530296 ",
+        "emff_address"  : "Corporation Main Office, C ward, ",
+        "emff_city" : " Kolhapur",
+        "emff_state":"Maharashtra",
+        "emff_pin" : " 416003"
+    }
+]

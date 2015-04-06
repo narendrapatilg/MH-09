@@ -1,0 +1,37 @@
+
+
+<div class="app">
+    <div class="navbar navbar-app navbar-absolute-top cust-navbar-app">
+        <div class="navbar-brand navbar-brand-center" ui-yield-to="title">
+            <span class="ng-scope"> Calender </span>
+        </div>
+        <div class="btn-group pull-left" ng-click="back_navigation()">
+            <div class=" back-btn"  >
+                <i class="fa fa-angle-left"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class='app-body'>
+        <div class='app-content'>
+            <div class="scrollable" ui-state="searchBar">
+                <div class="scrollable-content" >
+                    <!-- slider container -->
+                    <div class="container slider">
+                        <!-- enumerate all photos -->
+                        <img ng-repeat="photo in photos" class="slide" ng-swipe-right="showPrev()" ng-swipe-left="showNext()" ng-show="isActive($index)" ng-src="{{photo.src}}" />
+                        <!-- prev / next controls -->
+                        <a class="arrow prev" ng-click="showPrev()"><i class="fa fa-angle-left"></i></a>
+                        <a class="arrow next" ng-click="showNext()"><i class="fa fa-angle-right"></i></a>
+                        <!-- extra navigation controls -->
+                        <!--<ul class="nav">-->
+                            <!--<li ng-repeat="photo in photos" ng-class="{'active':isActive($index)}">-->
+                                <!--<img src="{{photo.src}}" alt="{{photo.desc}}" title="{{photo.desc}}" ng-click="showPhoto($index);" />-->
+                            <!--</li>-->
+                        <!--</ul>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

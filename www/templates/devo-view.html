@@ -1,0 +1,51 @@
+<div class="sidebar sidebar-left">
+    <div class="scrollable" ui-state="searchBar" >
+        <div class="scrollable-content side-menu" ui-scroll-bottom='bottomReached()'>
+            <!--<a ng-href="{{'#'+menuItem.redirect}}" class="list-group-item menu" ui-turn-off='uiSidebarLeft' ng-repeat="menuItem in componentData" ng-click="menunavigation( menuItem.redirect)" >-->
+                <!--<img ng-src="{{ menuItem.img_path}}"/>-->
+                <!--<label>{{menuItem.title}}</label>-->
+            <!--</a>-->
+            <menu-slider></menu-slider>
+        </div>
+    </div>
+</div>
+
+<div class="app">
+    <div class="navbar navbar-app navbar-absolute-top cust-navbar-app">
+        <div class="navbar-brand navbar-brand-center">
+            <span class="ng-scope"> Spiritual </span>
+        </div>
+        <div class="btn-group pull-left" >
+            <div class="back-btn" ng-click="back_navigation()" >
+                <i class="fa fa-angle-left"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class='app-body'>
+        <div class='app-content'>
+            <div class="scrollable" ui-state="searchBar">
+                <div class="scrollable-content">
+                    <accordion close-others="oneAtATime">
+                        <accordion-group heading="{{devoItem.devo_title}}" ng-repeat="devoItem in devotionalData">
+                            <div class="card-devo">
+                                <div class="labelData row" >
+                                    <label class="optmenu ">&nbsp; Discription &nbsp; :&nbsp; </label>
+                                    <label class="parameters ">{{devoItem.devo_discription}}</label>
+                                </div>
+                                <div class="labelData row" >
+                                    <label class="optmenu col-xs-4 col-sm-4 col-md-4">Start on</label>
+                                    <label class="parameters col-xs-8 col-sm-8 col-md-8">{{devoItem.devo_start_date+', '+devoItem.devo_start_time}}</label>
+                                </div>
+                                <div class="row" >
+                                    <label class="optmenu col-xs-4 col-sm-4 col-md-4">End on</label>
+                                    <label class="parameters col-xs-8 col-sm-8 col-md-8">{{devoItem.devo_end_date+', '+devoItem.devo_end_time}}</label>
+                                </div>
+                            </div>
+                        </accordion-group>
+                    </accordion>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

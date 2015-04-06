@@ -1,0 +1,36 @@
+
+
+<div class="app">
+    <div class="navbar navbar-app navbar-absolute-top cust-navbar-app">
+        <div class="navbar-brand navbar-brand-center" ui-yield-to="title">
+            <span class="ng-scope">  MH-Transport </span>
+        </div>
+        <div class="btn-group pull-left" ng-click="back_navigation()">
+            <div class="back-btn">
+                <i class="fa fa-angle-left"></i>
+            </div>
+        </div>
+    </div>
+    <div class='app-body'>
+        <div class='app-content'>
+            <div class="scrollable" ui-state="searchBar">
+                <div class="scrollable-content" >
+                    <!-- slider container -->
+                    <!--<div class="container slider">-->
+                        <!--&lt;!&ndash; enumerate all photos &ndash;&gt;-->
+                        <!--<img ng-repeat="photo in photos" class="slide" ng-swipe-right="showPrev()" ng-swipe-left="showNext()" ng-show="isActive($index)" ng-src="{{photo.src}}" />-->
+                        <!--&lt;!&ndash; prev / next controls &ndash;&gt;-->
+                        <!--<a class="arrow prev" ng-click="showPrev()"><i class="fa fa-angle-left"></i></a>-->
+                        <!--<a class="arrow next" ng-click="showNext()"><i class="fa fa-angle-right"></i></a>-->
+                        <!--&lt;!&ndash; extra navigation controls &ndash;&gt;-->
+                        <!--&lt;!&ndash;<ul class="nav">&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li ng-repeat="photo in photos" ng-class="{'active':isActive($index)}">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<img src="{{photo.src}}" alt="{{photo.desc}}" title="{{photo.desc}}" ng-click="showPhoto($index);" />&ndash;&gt;-->
+                            <!--&lt;!&ndash;</li>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

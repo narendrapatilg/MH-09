@@ -1,0 +1,103 @@
+[
+    {
+        "empol_id":"1506",
+        "empol_name":" Police Control Room ",
+        "empol_contact":" 0231-2662433 / 100 ",
+        "empol_address":"Near dream world,Kasaba bawada",
+        "empol_city":"Kolhapur",
+        "empol_state":"Maharashtra",
+        "empol_country":"India",
+        "empol_pincode":"416006"
+    },
+    {
+        "empol_id":"1507",
+        "empol_name":" Superintendent of Police, Kolhapur ",
+        "empol_contact":"NA",
+        "empol_address":" Near dream world,Kasaba bawada",
+        "empol_city":"Kolhapur",
+        "empol_state":"Maharashtra",
+        "empol_country":"India",
+        "empol_pincode":"416006"
+    },
+    {
+        "empol_id":"1508",
+        "empol_name":" Juna Rajwada Police Station ",
+        "empol_contact":" 0231-2542233 ",
+        "empol_address":" Juna Rajwada, Bhavani Mandap ",
+        "empol_city":"Kolhapur",
+        "empol_state":"Maharashtra",
+        "empol_country":"India",
+        "empol_pincode":"416001"
+    },
+    {
+        "empol_id":"1509",
+        "empol_name":" Shahupuri Police Station ",
+        "empol_contact":" 0231-2661733",
+        "empol_address":"Railway Station, Shahupuri",
+        "empol_city":"Kolhapur",
+        "empol_state":"Maharashtra",
+        "empol_country":"India",
+        "empol_pincode":"416006"
+    },
+    {
+        "empol_id":"1510",
+        "empol_name":" Rajarampuri Police Station ",
+        "empol_contact":" 0231-2694633 ",
+        "empol_address":"  shahu mill road, Rajarampuri",
+        "empol_city":"Kolhapur",
+        "empol_state":"Maharashtra",
+        "empol_country":"India",
+        "empol_pincode":"416008"
+    },
+    {
+        "empol_id":"1511",
+        "empol_name":" Laxmipuri Police Station ",
+        "empol_contact":" 0231-2641933 ",
+        "empol_address":"Near Prabhat cinema,Laxmipuri",
+        "empol_city":"Kolhapur",
+        "empol_state":"Maharashtra",
+        "empol_country":"India",
+        "empol_pincode":"416001"
+    },
+    {
+        "empol_id":"1512",
+        "empol_name":" karveer Police Station ",
+        "empol_contact":" 0231-2644133 ",
+        "empol_address":"Near Tawn hall",
+        "empol_city":"Kolhapur",
+        "empol_state":"Maharashtra",
+        "empol_country":"India",
+        "empol_pincode":"416001"
+    },
+    {
+        "empol_id":"1513",
+        "empol_name":" Gandhinagar Police Station ",
+        "empol_contact":" 0231-2613933 ",
+        "empol_address":"Gandhinar",
+        "empol_city":"Gandhinagar ",
+        "empol_state":"Maharashtra",
+        "empol_country":"India",
+        "empol_pincode":"416119"
+    },
+    {
+        "empol_id":"1514",
+        "empol_name":" Kagal Police Station ",
+        "empol_contact":" 02325-244033 ",
+        "empol_address":"Kagal",
+        "empol_city":"Kolhapur",
+        "empol_state":"Maharashtra",
+        "empol_country":"India",
+        "empol_pincode":"416001"
+    },
+    {
+        "empol_id":"1515",
+        "empol_name":" Shiroli MIDC Police Station ",
+        "empol_contact":" 0231-2468018 ",
+        "empol_address":"Shiroli ",
+        "empol_city":"Kolhapur",
+        "empol_state":"Maharashtra",
+        "empol_country":"India",
+        "empol_pincode":"41122"
+    }
+]
+

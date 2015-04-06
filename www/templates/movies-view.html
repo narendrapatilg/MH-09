@@ -1,0 +1,54 @@
+<div class="sidebar sidebar-left">
+    <div class="scrollable" ui-state="searchBar" >
+        <div class="scrollable-content side-menu" ui-scroll-bottom='bottomReached()'>
+            <!--<a ng-href="{{'#'+menuItem.redirect}}" class="list-group-item menu" ui-turn-off='uiSidebarLeft' ng-repeat="menuItem in componentData" ng-click="menunavigation( menuItem.redirect)" >-->
+                <!--<img ng-src="{{ menuItem.img_path}}"/>-->
+                <!--<label>{{menuItem.title}}</label>-->
+            <!--</a>-->
+            <menu-slider></menu-slider>
+        </div>
+    </div>
+</div>
+
+<div class="app">
+    <div class="navbar navbar-app navbar-absolute-top cust-navbar-app">
+        <div class="navbar-brand navbar-brand-center" ui-yield-to="title">
+            <span class="ng-scope">  Movies </span>
+        </div>
+        <div class="btn-group pull-left" ng-click="back_navigation()">
+            <div class="back-btn"  >
+                <i class="fa fa-angle-left"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class='app-body'>
+        <div class='app-content'>
+            <div class="scrollable" ui-state="searchBar">
+                <div class="scrollable-content">
+                    <loader-view></loader-view>
+                    <div class="text-center message" ng-if="moviesData==undefined">
+                        <label class="panel-title "> Data Unavailable </label>
+                    </div>
+                    <div class="list-group movie" ng-hide="loader.loading">
+                        <a ng-repeat="movieItem in moviesData"  class="list-group-item card-movie">
+                            <div class="cust-page-title"><h4>{{ $index+1}}</h4></div>
+                            <div class="labelData row fristLabel" >
+                                <label class="optmenu col-xs-4 col-sm-4 col-md-4">Show Name</label>
+                                <label class="parameters col-xs-8 col-sm-8 col-md-8">{{movieItem.movie_name}}</label>
+                            </div>
+                            <div class="labelData row" >
+                                <label class="optmenu col-xs-4 col-sm-4 col-md-4">Show Place</label>
+                                <label class="parameters col-xs-8 col-sm-8 col-md-8">{{movieItem.mov_show_place}}</label>
+                            </div>
+                            <div class="labelData row" >
+                                <label class="optmenu col-xs-4 col-sm-4 col-md-4">Show Times</label>
+                                <label class="parameters col-xs-8 col-sm-8 col-md-8"><span ng-repeat="showItem in movieItem.mov_time track by $index">{{showItem}},</span> </label>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

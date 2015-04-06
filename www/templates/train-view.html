@@ -1,0 +1,37 @@
+<!--<div class="sidebar sidebar-left">-->
+    <!--<div class="scrollable" ui-state="searchBar" >-->
+        <!--<div class="scrollable-content side-menu" ui-scroll-bottom='bottomReached()'>-->
+            <!--&lt;!&ndash;<a ng-href="{{'#'+menuItem.redirect}}" class="list-group-item menu" ui-turn-off='uiSidebarLeft' ng-repeat="menuItem in componentData" ng-click="menunavigation( menuItem.redirect)" >&ndash;&gt;-->
+                <!--&lt;!&ndash;<img ng-src="{{ menuItem.img_path}}"/>&ndash;&gt;-->
+                <!--&lt;!&ndash;<label>{{menuItem.title}}</label>&ndash;&gt;-->
+            <!--&lt;!&ndash;</a>&ndash;&gt;-->
+            <!--<menu-slider></menu-slider>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<div class="app">
+    <div class="navbar navbar-app navbar-absolute-top cust-navbar-app">
+        <div class="navbar-brand navbar-brand-center" ui-yield-to="title">
+            <span class="ng-scope">Get Your Train</span>
+        </div>
+        <div class="btn-group pull-left" ng-click="back_navigation()">
+            <div class="back-btn">
+                <i class="fa fa-angle-left"></i>
+            </div>
+        </div>
+    </div>
+    <div class='app-body'>
+        <div class='app-content'>
+            <div class="scrollable" ui-state="searchBar">
+                <div class="scrollable-content">
+                    <div class="list-group train">
+                        <a href="#/train/{{$index}}" ng-repeat="item in trainData"  class="list-group-item train-list">
+                            <label>{{ item.train_name }}</label> <i class="fa fa-chevron-right pull-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

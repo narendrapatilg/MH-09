@@ -1,0 +1,109 @@
+
+<div class="app">
+    <div class="navbar navbar-app navbar-absolute-top cust-navbar-app">
+        <div class="navbar-brand navbar-brand-center" >
+            <span class="ng-scope">Emergency Details</span>
+        </div>
+        <div class="btn-group pull-left" ng-click="back_navigation()">
+            <div class="back-btn">
+                <i class="fa fa-angle-left"></i>
+            </div>
+        </div>
+    </div>
+    <div class='app-body'>
+        <div class="btn-group justified nav-tabs">
+            <a ui-set="{'activeTab': 1}"
+               ui-class="{'active': activeTab == 1}" class="btn btn-default">Blood Banks</a>
+
+            <a ui-set="{'activeTab': 2}"
+               ui-class="{'active': activeTab == 2}" class="btn btn-default">Fire Fights</a>
+
+            <a ui-set="{'activeTab': 3}"
+               ui-class="{'active': activeTab == 3}" class="btn btn-default">Police</a>
+        </div>
+        <div class='app-content'>
+            <div ui-content-for="title">
+                <span>Tabs</span>
+            </div>
+
+            <div class="scrollable">
+                <div class="scrollable-content">
+                    <div class='section'>
+                        <ui-state id='activeTab' default='1'></ui-state>
+                        <div ui-if="activeTab == 1">
+                            <div class="list-group emergency">
+                                <a ng-repeat="item in bloodBankData"  class="list-group-item card-emergency">
+                                    <div class="cust-page-title"><h4>{{ $index+1}}</h4></div>
+                                    <div class="labelData row" >
+                                        <label class="optmenu col-xs-4 col-sm-4 col-md-4">Name</label>
+                                        <label class="parameters col-xs-8 col-sm-8 col-md-8">{{item.bb_name}}</label>
+                                    </div>
+                                    <div class=" row" >
+                                        <label class="optmenu col-xs-4 col-sm-4 col-md-4">Contact</label>
+                                        <label class="parameters col-xs-8 col-sm-8 col-md-8">{{item.bb_contact}}</label>
+                                    </div>
+                                    <div class=" row" >
+                                        <label class="optmenu col-xs-4 col-sm-4 col-md-4">Address</label>
+                                        <label class="parameters col-xs-8 col-sm-8 col-md-8">{{item.bb_address}}</label>
+                                    </div>
+                                    <div class=" row" >
+                                        <label class="optmenu col-xs-4 col-sm-4 col-md-4"></label>
+                                        <label class="parameters col-xs-8 col-sm-8 col-md-8">{{item.bb_city+', '+item.bb_state+', '+item.bb_pin}}</label>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div ui-if="activeTab == 2">
+                            <div class="list-group emergency">
+                                <a ng-repeat="item in fireFightData"  class="list-group-item card-emergency">
+                                    <div class="cust-page-title"><h4>{{ $index+1}}</h4></div>
+                                    <div class="labelData row" >
+                                        <label class="optmenu col-xs-4 col-sm-4 col-md-4">Name</label>
+                                        <label class="parameters col-xs-8 col-sm-8 col-md-8">{{item.emff_name}}</label>
+                                    </div>
+                                    <div class=" row" >
+                                        <label class="optmenu col-xs-4 col-sm-4 col-md-4">Contact</label>
+                                        <label class="parameters col-xs-8 col-sm-8 col-md-8">{{item.emff_contact}}</label>
+                                    </div>
+                                    <div class=" row" >
+                                        <label class="optmenu col-xs-4 col-sm-4 col-md-4">Address</label>
+                                        <label class="parameters col-xs-8 col-sm-8 col-md-8">{{item.emff_address}}</label>
+                                    </div>
+                                    <div class=" row" >
+                                        <label class="optmenu col-xs-4 col-sm-4 col-md-4"></label>
+                                        <label class="parameters col-xs-8 col-sm-8 col-md-8">{{item.emff_city+', '+item.emff_state+', '+item.emff_pin}}</label>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div ui-if="activeTab == 3">
+                            <div class="list-group emergency">
+                                <a ng-repeat="item in policeData"  class="list-group-item card-emergency">
+                                    <div class="cust-page-title"><h4>{{ $index+1}}</h4></div>
+                                    <div class="labelData row" >
+                                        <label class="optmenu col-xs-4 col-sm-4 col-md-4">Name</label>
+                                        <label class="parameters col-xs-8 col-sm-8 col-md-8">{{item.empol_name}}</label>
+                                    </div>
+                                    <div class="row" >
+                                        <label class="optmenu col-xs-4 col-sm-4 col-md-4">Contact</label>
+                                        <label class="parameters col-xs-8 col-sm-8 col-md-8">{{item.empol_contact}}</label>
+                                    </div>
+                                    <div class="row" >
+                                        <label class="optmenu col-xs-4 col-sm-4 col-md-4">Address</label>
+                                        <label class="parameters col-xs-8 col-sm-8 col-md-8">{{item.empol_address}}</label>
+                                    </div>
+                                    <div class="row" >
+                                        <label class="optmenu col-xs-4 col-sm-4 col-md-4"></label>
+                                        <label class="parameters col-xs-8 col-sm-8 col-md-8">{{item.empol_city+', '+item.empol_state+', '+item.empol_pin}}</label>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
