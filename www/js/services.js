@@ -55,6 +55,12 @@ MyServices.factory('myservices', function ($http) {
                 return response.data;
             });
             return promise;
+        },
+        getmsrtctransport: function () {
+            var promise = $http.get('json/msrtc-transport.json').then(function (response) {
+                return response.data;
+            });
+            return promise;
         }
     };
     return myService;

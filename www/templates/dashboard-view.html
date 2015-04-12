@@ -11,9 +11,8 @@
             <div class="scrollable" ui-state="searchBar">
                 <div class="scrollable-content" ui-scroll-bottom='bottomReached()'>
                     <loader-view></loader-view>
-
                     <div >
-                        <div class="adcarousel">
+                        <div class="adcarousel" ng-show="!adImageArrayForSlider">
                             <carousel interval="myInterval">
                                 <slide ng-repeat="slide in adImageArrayForSlider" active="slide.active">
                                     <img ng-src="{{slide.ad_img_path}}" style="margin:auto;">

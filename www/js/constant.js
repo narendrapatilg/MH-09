@@ -10,3 +10,7 @@ var constant= {
     "PRIVATE_TRANSPORT_PAGE_ROUTE":"/private_transport",
     "MORE_PAGE_ROUTE":"/more"
 };
+
+var message = {
+	"NO_INTERNET_MSG":"Check Your Internet Connection !"	
+};

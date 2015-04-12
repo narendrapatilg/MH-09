@@ -1,17 +1,35 @@
 var myapp = angular.module('myApp', [
     'ngRoute',
+    'toaster',
     'mobile-angular-ui',
     'My-Main-Controller',
     'mobile-angular-ui.core'
 ]);
-myapp.run(function ($rootScope,myservices){
+myapp.run(function ($rootScope,myservices,$window){
     // Needed for the loading screen
-    $rootScope.$on('$routeChangeStart', function(){
-        $rootScope.loading = true;
-    });
+//    $rootScope.$on('$routeChangeStart', function(){
+//        $rootScope.loading = true;
+//    });
+//
+//    $rootScope.$on('$routeChangeSuccess', function(){
+//        $rootScope.loading = false;
+//    });
 
-    $rootScope.$on('$routeChangeSuccess', function(){
-        $rootScope.loading = false;
+    $rootScope.online = navigator.onLine;
+    $window.addEventListener("offline", function () {
+        $rootScope.$apply(function() {
+            $rootScope.online = false;
+        });
+    }, false);
+    $window.addEventListener("online", function () {
+        $rootScope.$apply(function() {
+            $rootScope.online = true;
+        });
+    }, false);
+
+    $rootScope.$watch('online', function(newStatus) {
+        if(!$rootScope.online)
+            alert(message.NO_INTERNET_MSG);
     });
 
     myservices.getcomponentlist().then(function (data) {
@@ -151,7 +169,7 @@ function backButtonHandler() {
         }, 'MH-09', 'No,Yes');
         return false;
     }
-    else if(currentPath == "#"+constant.MORE_PAGE_ROUTE || currentPath == "#"+constant.MOVIES_PAGE_ROUTE || currentPath == "#"+constant.PRIVATE_TRANSPORT_PAGE_ROUTE|| currentPath == "#"+constant.DEVOTIONAL_PAGE_ROUTE || currentPath == "#"+constant.EMERGENCY_INFO_PAGE_ROUTE || currentPath == "#"+constant.TRAIN_INFO_PAGE_ROUTE ){
+    else if(currentPath == "#"+constant.DEALS_PAGE_ROUTE || currentPath == "#"+constant.MORE_PAGE_ROUTE || currentPath == "#"+constant.MOVIES_PAGE_ROUTE || currentPath == "#"+constant.PRIVATE_TRANSPORT_PAGE_ROUTE|| currentPath == "#"+constant.DEVOTIONAL_PAGE_ROUTE || currentPath == "#"+constant.EMERGENCY_INFO_PAGE_ROUTE || currentPath == "#"+constant.TRAIN_INFO_PAGE_ROUTE ){
         window.location.hash = "#"+constant.DASH_BOARD_ROUTE;
     }
     else{
